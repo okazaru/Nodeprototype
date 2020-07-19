@@ -1,0 +1,85 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.text{
+
+    text-align: center;
+    font-size: x-large;
+}
+
+.content,.project-content{
+    border-color:#1bad2f;
+    border-style:solid; 
+    border-width: 1px;
+    height: 80vh;
+}
+
+.content{
+    border-radius: 50px;
+}
+
+.category{
+    width: 50%;
+}
+
+.project,.project-content{
+    float: left;
+}
+
+.group{
+    float: left;
+}
+
+.brockmenu{
+    width:20%;
+    overflow:scroll;
+}
+
+.brockdetail{
+    width:20%;
+}
+
+#openvar{
+    transition-duration:3s;
+}
+
+
+.mainview{
+    width:60%;
+    position: relative;
+}
+
+.var{
+    background-color: indianred;
+}
+
+.con{
+    background-color: yellowgreen;
+}
+
+.roop{
+    background-color: darkkhaki;
+}
+
+.event{
+    background-color: dodgerblue;
+}
+
+#dd{
+    width: 50px;
+    height: 50px;
+    background-color: dodgerblue;
+}
+
+#gomi{
+    z-index:1;
+    position: absolute;
+    top:90%;
+    left:86%;
+}
