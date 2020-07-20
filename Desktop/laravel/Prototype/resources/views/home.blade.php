@@ -21,7 +21,21 @@
 
                             <p class="text">グループ一覧</p>
 
-                        </div>           
+                                <div>
+                                    <ul>
+                                        @foreach($Group as $group)
+                                        @if(Auth::user()->name == $group->username)
+                                        <li>                            
+                                         {{$group->groupname}}
+                                         </li>
+                                        @endif
+                                        @endforeach
+                                    </ul>
+                                </div>
+              
+
+                        </div>  
+                                             
                     </div>
 
                     
