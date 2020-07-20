@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\group;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +24,3 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/project','HomeController@project')->name('project');
 
 Route::get('/group','HomeController@group')->name('group');
-
-Route::get('/creategroup', 'GroupController@index')->name('creategroup');
-
-Route::post('/addData','GroupController@addData')->name('addData');

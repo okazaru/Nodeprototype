@@ -2,7 +2,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\group;
 
 class HomeController extends Controller
 {
@@ -23,9 +22,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $Group=group::all();
-        
-        return view('home',['Group'=>$Group]);
+        return view('home');
     }
 
     public function project()
